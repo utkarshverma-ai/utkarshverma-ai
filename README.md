@@ -1,11 +1,13 @@
 # 💫 About Me:
-🚀 Full-Stack Developer | JavaScript Enthusiast
+🚀 Full-Stack Developer | React · Next.js · Node.js · AWS
 
-Building scalable web applications with React, Node.js, Express.js & MongoDB
-Exploring AWS, REST API design, and backend architecture
-Open to collaborating on full-stack & backend projects
+Building end-to-end web apps — from real-time collaborative tools to AI interfaces
+Experienced with WebSockets, REST APIs, JWT Auth, PostgreSQL & cloud deployments on AWS
 
-💬 Ask me about JavaScript, Express, MongoDB, REST APIs & AWS
+100+ LeetCode problems | B.Tech CSE @ GLA University
+
+Open to collaborating on full-stack, backend & cloud-based projects
+💬 Ask me about JavaScript, React, Node.js, MongoDB, Supabase & AWS
 
 ☕ Sip Chai, Build Code
 
