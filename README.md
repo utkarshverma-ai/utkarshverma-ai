@@ -1,5 +1,10 @@
 # 💫 About Me:
-Building a full-stack web application using modern JavaScript technologies<br>Learning backend development with Express.js, MongoDB, and AWS<br>Working on improving my skills in API design and scalable backend systems<br>I’m looking to collaborate on full-stack and backend-focused projects<br><br>Ask me about JavaScript, Express, MongoDB, REST APIs, and AWS basics<br><br>Fun fact: Sip Chai, Build Code ☕💻
+🚀 Full-Stack Developer | JavaScript Enthusiast
+Building scalable web applications with React, Node.js, Express.js & MongoDB
+Exploring AWS, REST API design, and backend architecture
+Open to collaborating on full-stack & backend projects
+💬 Ask me about JavaScript, Express, MongoDB, REST APIs & AWS
+☕ Sip Chai, Build Code
 
 
 ## 🌐 Socials:
