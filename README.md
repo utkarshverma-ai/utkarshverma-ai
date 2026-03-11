@@ -3,7 +3,9 @@
 Building scalable web applications with React, Node.js, Express.js & MongoDB
 Exploring AWS, REST API design, and backend architecture
 Open to collaborating on full-stack & backend projects
+
 💬 Ask me about JavaScript, Express, MongoDB, REST APIs & AWS
+
 ☕ Sip Chai, Build Code
 
 
