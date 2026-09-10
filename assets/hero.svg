@@ -1,75 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
   <title id="title">Utkarsh Verma — Full-Stack Developer</title>
-  <desc id="desc">Animated GitHub profile banner with a dark blue and violet developer aesthetic.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#050816">
-        <animate attributeName="stop-color" values="#050816;#07142c;#050816" dur="9s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="52%" stop-color="#0b1738">
-        <animate attributeName="stop-color" values="#0b1738;#15204d;#0b1738" dur="11s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#25104e">
-        <animate attributeName="stop-color" values="#25104e;#102d55;#25104e" dur="10s" repeatCount="indefinite"/>
-      </stop>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="50%" stop-color="#60a5fa"/>
-      <stop offset="100%" stop-color="#a78bfa"/>
-    </linearGradient>
-    <radialGradient id="orbBlue">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.72"/>
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="orbPurple">
-      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.68"/>
-      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <path d="M34 0H0V34" fill="none" stroke="#93c5fd" stroke-opacity="0.08" stroke-width="1"/>
-    </pattern>
-    <filter id="blur">
-      <feGaussianBlur stdDeviation="28"/>
-    </filter>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
+  <desc id="desc">A restrained editorial GitHub profile banner with Swiss-inspired typography and subtle motion.</desc>
 
-  <rect x="1" y="1" width="1198" height="358" rx="28" fill="url(#bg)" stroke="#334155" stroke-opacity="0.55"/>
-  <rect x="1" y="1" width="1198" height="358" rx="28" fill="url(#grid)"/>
+  <rect width="1200" height="340" rx="22" fill="#F5F3EC"/>
+  <rect x="1" y="1" width="1198" height="338" rx="21" fill="none" stroke="#171717" stroke-width="2"/>
 
-  <circle cx="125" cy="86" r="165" fill="url(#orbBlue)" filter="url(#blur)">
-    <animate attributeName="cx" values="125;225;125" dur="8s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="86;120;86" dur="7s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="1085" cy="275" r="190" fill="url(#orbPurple)" filter="url(#blur)">
-    <animate attributeName="cx" values="1085;980;1085" dur="9s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="275;220;275" dur="8s" repeatCount="indefinite"/>
-  </circle>
+  <rect x="0" y="0" width="14" height="340" rx="7" fill="#2563EB"/>
+  <rect x="14" y="0" width="6" height="340" fill="#FF5A36"/>
 
-  <path d="M95 74 C260 5 404 110 580 46 S944 15 1115 86" fill="none" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" stroke-dasharray="7 14" opacity="0.55">
-    <animate attributeName="stroke-dashoffset" values="0;-84" dur="6s" repeatCount="indefinite"/>
-  </path>
-  <path d="M82 292 C278 236 432 346 646 282 S964 240 1127 302" fill="none" stroke="url(#accent)" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="5 16" opacity="0.38">
-    <animate attributeName="stroke-dashoffset" values="0;84" dur="8s" repeatCount="indefinite"/>
-  </path>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#141414">
+    <text x="72" y="72" font-size="13" font-weight="700" letter-spacing="4.2">FULL-STACK DEVELOPER / PRODUCT ENGINEERING</text>
 
-  <g fill="#e2e8f0" font-family="Segoe UI, Inter, Arial, sans-serif">
-    <text x="600" y="86" text-anchor="middle" font-size="14" font-weight="700" letter-spacing="5" fill="#7dd3fc">FULL-STACK DEVELOPER</text>
-    <text x="600" y="165" text-anchor="middle" font-size="60" font-weight="800" letter-spacing="1">Utkarsh Verma</text>
-    <rect x="355" y="187" width="490" height="3" rx="1.5" fill="url(#accent)" filter="url(#glow)"/>
-    <text x="600" y="228" text-anchor="middle" font-size="19" font-weight="500" fill="#cbd5e1">Product engineering · real-time systems · AI interfaces</text>
-    <text x="600" y="279" text-anchor="middle" font-size="15" font-weight="600" fill="#94a3b8" letter-spacing="1.4">REACT  /  NEXT.JS  /  TYPESCRIPT  /  NODE.JS</text>
-    <text x="600" y="321" text-anchor="middle" font-size="12" font-weight="700" fill="#64748b" letter-spacing="3.5">BUILD · LEARN · SHIP</text>
+    <text x="70" y="164" font-size="74" font-weight="800" letter-spacing="-2">UTKARSH</text>
+    <text x="70" y="232" font-size="74" font-weight="800" letter-spacing="-2">VERMA</text>
+
+    <text x="750" y="112" font-size="14" font-weight="700" letter-spacing="2.4">BUILDING</text>
+    <text x="750" y="148" font-size="24" font-weight="700">real-time products</text>
+    <text x="750" y="181" font-size="24" font-weight="700">clean interfaces</text>
+    <text x="750" y="214" font-size="24" font-weight="700">reliable systems</text>
   </g>
 
-  <g fill="#e0f2fe" filter="url(#glow)">
-    <circle cx="90" cy="180" r="3"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.5s" repeatCount="indefinite"/></circle>
-    <circle cx="1110" cy="160" r="3"><animate attributeName="opacity" values="1;0.25;1" dur="3.2s" repeatCount="indefinite"/></circle>
-    <circle cx="1030" cy="85" r="2"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.8s" repeatCount="indefinite"/></circle>
-    <circle cx="175" cy="270" r="2"><animate attributeName="opacity" values="1;0.3;1" dur="3.6s" repeatCount="indefinite"/></circle>
+  <line x1="70" y1="266" x2="1130" y2="266" stroke="#141414" stroke-width="2"/>
+
+  <g font-family="Courier New, monospace" font-size="13" font-weight="700" letter-spacing="1.2" fill="#141414">
+    <text x="72" y="300">REACT</text>
+    <text x="158" y="300">NEXT.JS</text>
+    <text x="272" y="300">TYPESCRIPT</text>
+    <text x="406" y="300">NODE.JS</text>
+    <text x="518" y="300">REST APIs</text>
+    <text x="650" y="300">POSTGRESQL</text>
   </g>
+
+  <g font-family="Courier New, monospace" fill="#141414">
+    <text x="895" y="300" font-size="12" font-weight="700" letter-spacing="1.5">BUILD / LEARN / SHIP</text>
+  </g>
+
+  <circle cx="1115" cy="68" r="7" fill="#FF5A36">
+    <animate attributeName="opacity" values="1;0.25;1" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1092" y="74" text-anchor="end" font-family="Courier New, monospace" font-size="12" font-weight="700" fill="#141414" letter-spacing="1.2">AVAILABLE FOR GOOD WORK</text>
+
+  <rect x="70" y="260" width="150" height="4" fill="#2563EB">
+    <animate attributeName="width" values="150;255;150" dur="5.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <circle cx="72" cy="320" r="3" fill="#2563EB">
+    <animate attributeName="cx" values="72;1128;72" dur="14s" repeatCount="indefinite"/>
+  </circle>
 </svg>
