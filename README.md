@@ -1,19 +1,20 @@
-<div align="center">
+<p align="center">
   <img src="./assets/hero.svg" alt="Utkarsh Verma — Full-Stack Developer" width="100%" />
-</div>
+</p>
 
-<div align="center">
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2600&pause=900&color=6F1D2F&center=true&vCenter=true&width=720&lines=Building+polished+web+products;Clean+UI+%E2%80%A2+Real-time+systems+%E2%80%A2+Thoughtful+engineering;React+%E2%80%A2+Next.js+%E2%80%A2+TypeScript+%E2%80%A2+Node.js" alt="Typing animation" />
+</p>
 
-### Building polished web products with clean UI, real-time systems, and strong engineering fundamentals.
+<p align="center">
+  <a href="https://utkarshportfolio-three.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-6F1D2F?style=for-the-badge&logo=vercel&logoColor=F4E9DC" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/utkarsh-verma-ooo1"><img src="https://img.shields.io/badge/LINKEDIN-8B5E66?style=for-the-badge&logo=linkedin&logoColor=F4E9DC" alt="LinkedIn" /></a>
+  <a href="mailto:codexutkarsh@gmail.com"><img src="https://img.shields.io/badge/EMAIL-A85A69?style=for-the-badge&logo=gmail&logoColor=F4E9DC" alt="Email" /></a>
+</p>
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-0F172A?style=for-the-badge&logo=vercel&logoColor=white)](https://utkarshportfolio-three.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/utkarsh-verma-ooo1)
-[![Email](https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:codexutkarsh@gmail.com)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/utkrshvrmx)
-
-<img src="https://komarev.com/ghpvc/?username=utkarshverma-ai&label=PROFILE%20VIEWS&color=2563EB&style=flat-square" alt="Profile views" />
-
-</div>
+<p align="center">
+  <strong>Building polished web products with clean UI, real-time systems, and strong engineering fundamentals.</strong>
+</p>
 
 ---
 
@@ -22,8 +23,8 @@
 I’m **Utkarsh Verma**, a final-year **B.Tech CSE** student and **Full-Stack Developer** focused on turning product ideas into clean, usable software.
 
 - 💼 **Product Engineering Intern — Frontend**
-- ⚡ Work with **Next.js, React, TypeScript, Tailwind CSS, REST APIs, charts, tables, responsive UI, accessibility, and testing**
-- 🧩 Build end-to-end projects with **authentication, databases, APIs, and real-time communication**
+- 🚀 Build responsive product interfaces with **React, Next.js, TypeScript, Tailwind CSS, and REST APIs**
+- 🧩 Work on data-heavy UI, dashboards, tables, filters, charts, drawers, and real-time experiences
 - 🧠 Practice **DSA in Java** and have solved **100+ LeetCode problems**
 - ☁️ Growing deeper in **backend engineering, AWS, and scalable system design**
 - 🎯 Open to **Software Engineer, Full-Stack, and Frontend** opportunities
@@ -35,10 +36,10 @@ I’m **Utkarsh Verma**, a final-year **B.Tech CSE** student and **Full-Stack De
 ## 💼 Experience
 
 ### Product Engineering Intern — Frontend
-**Production UI • Product flows • API integration • Quality**
+**Production UI · Product flows · API integration · Quality**
 
 - Convert product and Figma requirements into polished, responsive interfaces
-- Build with **Next.js / React / TypeScript / Tailwind CSS**
+- Build with **Next.js, React, TypeScript, and Tailwind CSS**
 - Integrate typed REST APIs and data-heavy UI such as tables, filters, charts, and drawers
 - Focus on component reuse, accessibility, responsive behavior, testing, and clean implementation
 
@@ -53,8 +54,7 @@ A full-stack whiteboard where multiple users can join shared rooms and draw toge
 
 `React` `TypeScript` `Node.js` `Express` `Socket.IO` `HTML5 Canvas`
 
-[![Repository](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/utkarshverma-ai/CanvasSync_collaborative-whiteboard-mern)
-[![Live Demo](https://img.shields.io/badge/Open_Live_Demo-111827?style=flat-square&logo=vercel&logoColor=white)](https://canvasync-livid.vercel.app/)
+[Repository](https://github.com/utkarshverma-ai/CanvasSync_collaborative-whiteboard-mern) · [Live Demo](https://canvasync-livid.vercel.app/)
 
 ### ✅ ZenTask Manager — Project & Task Management Platform
 A role-based team workspace with authentication, project/task workflows, assignments, priorities, due dates, metrics, and realtime refresh.
@@ -63,30 +63,22 @@ A role-based team workspace with authentication, project/task workflows, assignm
 
 `React` `TypeScript` `Vite` `Supabase` `PostgreSQL` `RLS`
 
-[![Repository](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/utkarshverma-ai/ZenTask_Manager)
-[![Live Demo](https://img.shields.io/badge/Open_Live_Demo-111827?style=flat-square&logo=vercel&logoColor=white)](https://zen-task-manager.vercel.app/)
+[Repository](https://github.com/utkarshverma-ai/ZenTask_Manager) · [Live Demo](https://zen-task-manager.vercel.app/)
 
 ### 🌐 Personal Portfolio — Interactive Developer Experience
 A motion-rich portfolio built to present work through modern animation and 3D web techniques.
 
 `React` `TypeScript` `GSAP` `Three.js` `WebGL`
 
-[![Repository](https://img.shields.io/badge/View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/utkarshverma-ai/Utkarsh_Portfolio)
-[![Portfolio](https://img.shields.io/badge/Visit_Portfolio-111827?style=flat-square&logo=vercel&logoColor=white)](https://utkarshportfolio-three.vercel.app/)
+[Repository](https://github.com/utkarshverma-ai/Utkarsh_Portfolio) · [Portfolio](https://utkarshportfolio-three.vercel.app/)
 
 ---
 
 ## 🛠️ Tech I Work With
 
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=java,js,ts,react,nextjs,nodejs,express,tailwind,vite&perline=9" alt="Core stack" />
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,supabase,aws,vercel,git,github,figma,postman&perline=9" alt="Data cloud and tools" />
-
-</div>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,js,ts,react,nextjs,nodejs,express,tailwind,vite,postgres,mongodb,supabase,aws,vercel,git,github,figma,postman&perline=9" alt="Tech stack" />
+</p>
 
 ---
 
@@ -98,30 +90,26 @@ A motion-rich portfolio built to present work through modern animation and 3D we
 
 ## 🐍 Contribution Trail
 
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/utkarshverma-ai/utkarshverma-ai/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/utkarshverma-ai/utkarshverma-ai/output/github-snake.svg" />
-  <img alt="Utkarsh Verma contribution snake" src="https://raw.githubusercontent.com/utkarshverma-ai/utkarshverma-ai/output/github-snake.svg" />
-</picture>
-
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/utkarshverma-ai/utkarshverma-ai/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/utkarshverma-ai/utkarshverma-ai/output/github-snake.svg" />
+    <img alt="Utkarsh Verma contribution snake" src="https://raw.githubusercontent.com/utkarshverma-ai/utkarshverma-ai/output/github-snake.svg" />
+  </picture>
+</p>
 
 ---
-
-<div align="center">
 
 ## 🤝 Let’s Build Something Useful
 
 I’m interested in engineering teams where I can contribute, learn fast, and ship real product work.
 
-[![Portfolio](https://img.shields.io/badge/Explore_My_Portfolio-0F172A?style=for-the-badge&logo=vercel&logoColor=white)](https://utkarshportfolio-three.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/utkarsh-verma-ooo1)
-[![Email](https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:codexutkarsh@gmail.com)
+<p align="center">
+  <a href="https://utkarshportfolio-three.vercel.app/"><img src="https://img.shields.io/badge/EXPLORE_PORTFOLIO-6F1D2F?style=for-the-badge&logo=vercel&logoColor=F4E9DC" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/utkarsh-verma-ooo1"><img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-8B5E66?style=for-the-badge&logo=linkedin&logoColor=F4E9DC" alt="LinkedIn" /></a>
+  <a href="mailto:codexutkarsh@gmail.com"><img src="https://img.shields.io/badge/SEND_AN_EMAIL-A85A69?style=for-the-badge&logo=gmail&logoColor=F4E9DC" alt="Email" /></a>
+</p>
 
-<br/>
-
-**Build useful things · learn the hard parts · keep shipping.**
-
-</div>
+<p align="center">
+  <strong>Build useful things · learn the hard parts · keep shipping.</strong>
+</p>
