@@ -1,26 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
   <title id="title">Utkarsh Verma — Full-Stack Developer</title>
-  <desc id="desc">Light premium GitHub profile banner using porcelain, wine, dusty rose, and warm taupe.</desc>
+  <desc id="desc">Warm ivory, deep teal, and copper GitHub profile banner with a restrained premium layout.</desc>
 
-  <rect width="1200" height="320" rx="22" fill="#FFF9F4"/>
-  <rect x="1" y="1" width="1198" height="318" rx="21" fill="none" stroke="#E7D9D1" stroke-width="2"/>
+  <rect width="1200" height="320" rx="22" fill="#F8F5EF"/>
+  <rect x="1" y="1" width="1198" height="318" rx="21" fill="none" stroke="#D9D2C5" stroke-width="2"/>
 
-  <rect x="64" y="48" width="86" height="2" rx="1" fill="#C58A95"/>
-  <text x="64" y="77" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="4.1" fill="#9A6570">FULL-STACK DEVELOPER  /  PRODUCT ENGINEERING</text>
+  <rect x="64" y="47" width="54" height="3" rx="1.5" fill="#C76B4F"/>
+  <text x="64" y="76" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="4.1" fill="#52706C">FULL-STACK DEVELOPER  /  PRODUCT ENGINEERING</text>
 
-  <text x="64" y="162" font-family="Georgia, 'Times New Roman', serif" font-size="74" font-weight="700" letter-spacing="-2" fill="#7A2E42">Utkarsh Verma</text>
-  <text x="66" y="204" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="500" fill="#806B65">Building thoughtful interfaces, real-time products, and reliable full-stack experiences.</text>
+  <text x="64" y="160" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="800" letter-spacing="-2.7" fill="#0F5C5E">Utkarsh Verma</text>
+  <text x="66" y="202" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="500" fill="#4E625F">Building thoughtful interfaces, real-time products, and reliable full-stack experiences.</text>
 
   <g transform="translate(792 88)">
-    <rect x="0" y="0" width="298" height="100" rx="18" fill="#F8ECE8" stroke="#E7D9D1"/>
-    <text x="24" y="28" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="2.6" fill="#A17379">CURRENT FOCUS</text>
-    <text x="24" y="57" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#7A2E42">Product engineering</text>
-    <text x="24" y="81" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#8A6C69">Frontend systems · APIs · Real-time UX</text>
+    <rect x="0" y="0" width="300" height="104" rx="18" fill="#F1ECE3" stroke="#D9D2C5"/>
+    <rect x="0" y="0" width="5" height="104" rx="2.5" fill="#C76B4F"/>
+    <text x="26" y="29" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="2.6" fill="#67807C">CURRENT FOCUS</text>
+    <text x="26" y="59" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#0F5C5E">Product engineering</text>
+    <text x="26" y="83" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="500" fill="#5D706D">Frontend systems · APIs · Real-time UX</text>
   </g>
 
-  <line x1="64" y1="236" x2="1136" y2="236" stroke="#DECFC7" stroke-width="1.4"/>
+  <line x1="64" y1="236" x2="1136" y2="236" stroke="#D9D2C5" stroke-width="1.4"/>
 
-  <g font-family="Courier New, monospace" font-size="12" font-weight="700" letter-spacing="1.25" fill="#8A4C5B">
+  <g font-family="Courier New, monospace" font-size="12" font-weight="700" letter-spacing="1.25" fill="#315F5D">
     <text x="64" y="273">REACT</text>
     <text x="147" y="273">NEXT.JS</text>
     <text x="264" y="273">TYPESCRIPT</text>
@@ -30,18 +31,18 @@
   </g>
 
   <g font-family="Courier New, monospace" font-size="11" font-weight="700" letter-spacing="1.3">
-    <circle cx="1118" cy="58" r="5" fill="#7A2E42">
+    <circle cx="1118" cy="58" r="5" fill="#C76B4F">
       <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/>
     </circle>
-    <text x="1103" y="62" text-anchor="end" fill="#9A6570">OPEN TO SOFTWARE OPPORTUNITIES</text>
-    <text x="1136" y="273" text-anchor="end" fill="#7A2E42">BUILD  /  LEARN  /  SHIP</text>
+    <text x="1103" y="62" text-anchor="end" fill="#52706C">OPEN TO SOFTWARE OPPORTUNITIES</text>
+    <text x="1136" y="273" text-anchor="end" fill="#C76B4F">BUILD  /  LEARN  /  SHIP</text>
   </g>
 
-  <rect x="64" y="232" width="118" height="4" rx="2" fill="#C58A95">
+  <rect x="64" y="232" width="118" height="4" rx="2" fill="#C76B4F">
     <animate attributeName="x" values="64;1018;64" dur="12s" repeatCount="indefinite"/>
   </rect>
 
-  <circle cx="64" cy="300" r="3" fill="#7A2E42">
+  <circle cx="64" cy="300" r="3" fill="#0F5C5E">
     <animate attributeName="cx" values="64;1136;64" dur="15s" repeatCount="indefinite"/>
   </circle>
 </svg>
