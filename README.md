@@ -3,13 +3,15 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2600&pause=900&color=6F1D2F&center=true&vCenter=true&width=720&lines=Building+polished+web+products;Clean+UI+%E2%80%A2+Real-time+systems+%E2%80%A2+Thoughtful+engineering;React+%E2%80%A2+Next.js+%E2%80%A2+TypeScript+%E2%80%A2+Node.js" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2600&pause=900&color=7A2E42&center=true&vCenter=true&width=720&lines=Building+polished+web+products;Clean+UI+%E2%80%A2+Real-time+systems+%E2%80%A2+Thoughtful+engineering;React+%E2%80%A2+Next.js+%E2%80%A2+TypeScript+%E2%80%A2+Node.js" alt="Typing animation" />
 </p>
 
 <p align="center">
-  <a href="https://utkarshportfolio-three.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-6F1D2F?style=for-the-badge&logo=vercel&logoColor=F4E9DC" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/utkarsh-verma-ooo1"><img src="https://img.shields.io/badge/LINKEDIN-8B5E66?style=for-the-badge&logo=linkedin&logoColor=F4E9DC" alt="LinkedIn" /></a>
-  <a href="mailto:codexutkarsh@gmail.com"><img src="https://img.shields.io/badge/EMAIL-A85A69?style=for-the-badge&logo=gmail&logoColor=F4E9DC" alt="Email" /></a>
+  <a href="https://github.com/utkarshverma-ai"><img src="https://img.shields.io/badge/GitHub-7A2E42?style=for-the-badge&logo=github&logoColor=FFF9F4" alt="GitHub" /></a>
+  <a href="https://utkarshportfolio-three.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-8A4C5B?style=for-the-badge&logo=vercel&logoColor=FFF9F4" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/utkarsh-verma-ooo1"><img src="https://img.shields.io/badge/LinkedIn-9A6570?style=for-the-badge&logo=linkedin&logoColor=FFF9F4" alt="LinkedIn" /></a>
+  <a href="mailto:codexutkarsh@gmail.com"><img src="https://img.shields.io/badge/Email-AE7C85?style=for-the-badge&logo=gmail&logoColor=FFF9F4" alt="Email" /></a>
+  <a href="https://x.com/utkrshvrmx"><img src="https://img.shields.io/badge/X-C58A95?style=for-the-badge&logo=x&logoColor=FFF9F4" alt="X" /></a>
 </p>
 
 <p align="center">
@@ -105,9 +107,9 @@ A motion-rich portfolio built to present work through modern animation and 3D we
 I’m interested in engineering teams where I can contribute, learn fast, and ship real product work.
 
 <p align="center">
-  <a href="https://utkarshportfolio-three.vercel.app/"><img src="https://img.shields.io/badge/EXPLORE_PORTFOLIO-6F1D2F?style=for-the-badge&logo=vercel&logoColor=F4E9DC" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/utkarsh-verma-ooo1"><img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-8B5E66?style=for-the-badge&logo=linkedin&logoColor=F4E9DC" alt="LinkedIn" /></a>
-  <a href="mailto:codexutkarsh@gmail.com"><img src="https://img.shields.io/badge/SEND_AN_EMAIL-A85A69?style=for-the-badge&logo=gmail&logoColor=F4E9DC" alt="Email" /></a>
+  <a href="https://utkarshportfolio-three.vercel.app/"><img src="https://img.shields.io/badge/Explore_Portfolio-7A2E42?style=for-the-badge&logo=vercel&logoColor=FFF9F4" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/utkarsh-verma-ooo1"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-9A6570?style=for-the-badge&logo=linkedin&logoColor=FFF9F4" alt="LinkedIn" /></a>
+  <a href="mailto:codexutkarsh@gmail.com"><img src="https://img.shields.io/badge/Send_an_Email-AE7C85?style=for-the-badge&logo=gmail&logoColor=FFF9F4" alt="Email" /></a>
 </p>
 
 <p align="center">
