@@ -1,16 +1,84 @@
 <!doctype html>
-<html lang="hi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#19352b"><title>सामान की लिस्ट | Shopping Checklist</title>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#10392e">
+<meta name="description" content="A beautiful, easy-to-use Hindi shopping checklist. Check items off as you shop.">
+<title>मेरी खरीदारी · Shopping List</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Hind:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-*{box-sizing:border-box}body{margin:0;background:#f6f4ed;color:#22322b;font-family:system-ui,-apple-system,"Segoe UI",sans-serif}main{max-width:540px;margin:24px auto;padding:20px}h1{font-size:2rem;margin:0 0 8px}.sub{color:#64736a;margin:0 0 24px}.panel{background:white;border:1px solid #dfdfd5;border-radius:22px;padding:24px;box-shadow:0 14px 40px #1633260b}.stats{display:flex;justify-content:space-between;align-items:center;gap:12px;font-weight:650}.track{height:9px;background:#e9eee9;border-radius:9px;margin:14px 0 24px;overflow:hidden}.fill{height:100%;background:#387b59;width:0%;transition:width .2s}label{display:flex;align-items:center;gap:15px;min-height:55px;padding:10px 5px;border-bottom:1px solid #eee;cursor:pointer;font-size:1.13rem}label:last-child{border-bottom:0}input[type=checkbox]{width:23px;height:23px;accent-color:#30794c;flex:none;cursor:pointer}label:has(input:checked) span{text-decoration:line-through;color:#849089}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}button{border:0;border-radius:12px;padding:13px 18px;font-size:1rem;font-weight:600;cursor:pointer;background:#193d2b;color:#fff}.secondary{background:#e9eee9;color:#254834}.note{font-size:.88rem;color:#69766e;margin-top:18px;line-height:1.6}footer{margin-top:24px;color:#78857c;text-align:center;font-size:.82rem}@media(max-width:600px){main{margin:0;padding:19px 14px}.panel{padding:19px}h1{font-size:1.75rem}}
-</style></head><body><main><h1>🛒 सामान की लिस्ट</h1><p class="sub">Tap an item when you buy it. Your checks are saved on this device.</p><section class="panel"><div class="stats"><span>Shopping progress</span><span id="count">0 / 12</span></div><div class="track"><div class="fill" id="fill"></div></div><div id="items"></div><div class="actions"><button id="share">📤 Share list</button><button class="secondary" id="reset">↺ Reset</button></div><p class="note">Checks save in this browser only. Sharing this link lets others use their own checklist; it doesn't sync progress between devices.</p></section><footer>Simple shopping checklist</footer></main><script>
-const items=["खड़ी मूंग","दीया","किशमिश","रुई की बत्ती","माचिस","बादाम","बिस्कुट","आटा","रागी","मेथी","चूड़ा","मटर"];
+:root{font-family:"DM Sans","Hind",system-ui,sans-serif;color:#16382e;background:#f4f5ee;font-synthesis:none}*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(circle at 90% 3%,#d9eaca 0,transparent 32%),#f4f5ee}button,input{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible{outline:3px solid #f0ae55;outline-offset:3px}.page{width:min(100% - 32px,720px);margin:0 auto;padding:30px 0 70px}.topline{display:flex;align-items:center;justify-content:space-between;margin:0 0 24px;gap:12px}.brand{display:flex;align-items:center;gap:10px;font-size:13px;font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:#275b49}.brandmark{display:grid;place-items:center;width:34px;height:34px;background:#154c38;color:white;border-radius:12px;font-size:19px}.date{font-size:12px;font-weight:700;color:#71877c;letter-spacing:.07em;text-transform:uppercase}.hero{background:#123e30;border-radius:28px;position:relative;overflow:hidden;padding:30px 32px;color:#fff;box-shadow:0 20px 40px #123e3020}.hero:before{content:"";position:absolute;right:-80px;top:-100px;width:320px;height:320px;border:1px solid #ffffff20;border-radius:50%;box-shadow:0 0 0 55px #ffffff08,0 0 0 110px #ffffff05;pointer-events:none}.hero:after{content:"✳";position:absolute;right:34px;top:26px;color:#dbf1b5;font-size:28px}.eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.21em;font-weight:800;color:#c1e7a6}.hero h1{font-family:"Hind","DM Sans",sans-serif;font-weight:700;line-height:1.15;font-size:clamp(29px,6vw,42px);margin:12px 0 6px;position:relative}.hero p{font-size:14px;color:#c1d9cd;line-height:1.7;margin:0;position:relative}.hero-bottom{display:flex;align-items:end;justify-content:space-between;gap:15px;margin-top:29px;position:relative}.hero-stat strong{font-size:39px;line-height:1;font-weight:800;letter-spacing:-.05em}.hero-stat span{font-size:12px;color:#bdd5c7;display:block;margin-top:8px}.ring{--pct:0%;width:94px;height:94px;border-radius:50%;background:conic-gradient(#e0efa1 var(--pct),#ffffff24 0);display:grid;place-items:center;transition:background .3s}.ring-inner{width:75px;height:75px;display:grid;place-items:center;border-radius:50%;background:#123e30;font-weight:800;font-size:19px}.maincard{margin-top:20px;background:#fff;border:1px solid #e7ece3;border-radius:26px;overflow:hidden;box-shadow:0 8px 28px #18392e08}.card-head{padding:26px 26px 18px;display:flex;align-items:start;justify-content:space-between;gap:12px}.sectiontag{font-size:11px;color:#71927f;letter-spacing:.13em;font-weight:800;text-transform:uppercase}.card-head h2{font-size:23px;letter-spacing:-.045em;margin:4px 0 0;font-weight:800}.countpill{font-size:12px;font-weight:800;background:#e9f4ea;color:#23714d;padding:9px 12px;border-radius:99px;white-space:nowrap}.toolbar{display:flex;gap:10px;padding:0 26px 18px;align-items:center}.tabs{display:flex;align-items:center;gap:5px;background:#f3f5f1;border:1px solid #e6ebe5;border-radius:13px;padding:4px;flex:1}.tab{flex:1;border:none;background:transparent;padding:10px 9px;font-size:12px;font-weight:800;color:#6b8173;border-radius:9px;white-space:nowrap}.tab[aria-selected=true]{background:#fff;color:#174833;box-shadow:0 2px 7px #1a3b2a11}.search{display:flex;align-items:center;gap:7px;border:1px solid #e0e9e0;border-radius:13px;padding:0 12px;height:43px;width:165px;color:#688473}.search input{border:none;min-width:0;outline:none;width:100%;background:transparent;font-size:12px;color:#173e2c}.search input:focus-visible{outline:none}.search:focus-within{border-color:#7cb692;box-shadow:0 0 0 3px #ccebd677}.items{padding:0 16px 13px}.item{width:100%;border:1px solid transparent;border-bottom-color:#eef0eb;background:white;display:flex;align-items:center;gap:14px;text-align:left;padding:15px 11px;min-height:72px;border-radius:13px;color:#243b30;transition:background .15s,transform .15s}.item:hover{background:#f6faf5}.item:active{transform:scale(.992)}.tick{width:27px;height:27px;display:grid;place-items:center;border:2px solid #cbdbce;border-radius:9px;flex:none;color:transparent;background:white;transition:.15s}.item.done .tick{background:#26764f;border-color:#26764f;color:white}.itemtext{flex:1;min-width:0}.itemname{display:block;font-size:17px;font-family:"Hind","DM Sans",sans-serif;font-weight:600;line-height:1.35}.item.done .itemname{text-decoration:line-through;color:#9ba89c}.itemmeta{display:block;font-size:11px;color:#90a095;margin-top:2px;letter-spacing:.01em}.item.done{background:#f8faf7}.item.done .itemmeta{color:#77a486}.itemicon{width:39px;height:39px;border-radius:12px;background:#f5f7f0;display:grid;place-items:center;font-size:21px;flex:none}.empty{padding:38px 14px;text-align:center;color:#839489}.empty .emoji{font-size:36px;margin-bottom:10px}.empty strong{display:block;color:#315342;margin-bottom:6px}.actions{display:flex;gap:10px;padding:20px 26px 25px;border-top:1px solid #edf0ea}.primary,.ghost{border:0;border-radius:13px;min-height:48px;padding:12px 15px;font-weight:800;font-size:13px}.primary{background:#174c35;color:#fff;flex:1}.primary:hover{background:#0d3926}.ghost{background:#f1f5f0;color:#32533e}.ghost:hover{background:#e5ece5}.foot{display:flex;justify-content:space-between;gap:12px;margin:18px 5px;color:#829587;font-size:11px;line-height:1.6}.toast{position:fixed;left:50%;bottom:25px;transform:translate(-50%,15px);background:#143c2c;color:white;padding:12px 18px;border-radius:14px;box-shadow:0 8px 30px #153c2c40;font-size:13px;font-weight:700;opacity:0;pointer-events:none;transition:.2s;z-index:5;white-space:nowrap}.toast.show{transform:translate(-50%,0);opacity:1}@media(max-width:580px){.page{width:min(100% - 24px,480px);padding-top:20px}.topline{margin-bottom:16px}.hero{padding:25px 23px;border-radius:25px}.hero h1{font-size:34px}.hero-bottom{margin-top:23px}.ring{width:82px;height:82px}.ring-inner{width:65px;height:65px}.maincard{border-radius:23px}.card-head{padding:22px 19px 16px}.toolbar{padding:0 17px 13px;flex-wrap:wrap}.tabs{width:100%;flex-basis:100%}.search{width:100%}.items{padding:0 8px 11px}.item{padding:12px 10px;gap:11px}.itemicon{width:37px;height:37px}.actions{padding:18px 17px 21px}.foot{display:block}.foot span{display:block}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<div class="page">
+<header class="topline"><div class="brand"><div class="brandmark">✳</div> DAILY ESSENTIALS</div><div class="date" id="today"></div></header>
+<section class="hero" aria-label="Shopping progress"><div class="eyebrow">YOUR SHOPPING COMPANION</div><h1>मेरी खरीदारी 🛍️</h1><p>छोटी सी लिस्ट, आसान सी शॉपिंग।<br>सामान लेते जाएँ, टिक लगाते जाएँ।</p><div class="hero-bottom"><div class="hero-stat"><strong id="heroCount">0 <span style="display:inline;font-size:20px;color:#91b7a1">/ 12</span></strong><span id="heroMessage">Ready when you are ✨</span></div><div class="ring" id="ring"><div class="ring-inner" id="percent">0%</div></div></div></section>
+<section class="maincard"><div class="card-head"><div><div class="sectiontag">THE CHECKLIST</div><h2>सामान की लिस्ट</h2></div><span class="countpill" id="remaining">12 बाकी</span></div>
+<div class="toolbar"><div class="tabs" role="tablist" aria-label="Filter items"><button class="tab" data-filter="all" role="tab" aria-selected="true">सभी</button><button class="tab" data-filter="pending" role="tab" aria-selected="false">बाकी</button><button class="tab" data-filter="done" role="tab" aria-selected="false">खरीद लिया ✓</button></div><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="सामान खोजें..." aria-label="Search shopping items"></label></div>
+<div class="items" id="items"></div><div class="actions"><button class="primary" id="share">↗ &nbsp; WhatsApp पर शेयर करें</button><button class="ghost" id="reset">↻ Reset</button></div></section>
+<footer class="foot"><span>✓ Your progress is saved automatically on this device.</span><span>Made for smoother shopping ♡</span></footer>
+</div><div class="toast" role="status" aria-live="polite" id="toast"></div>
+<script>
+(function(){
+"use strict";
+const products=[
+{name:"खड़ी मूंग",icon:"🌱",meta:"दाल और अनाज"},
+{name:"दीया",icon:"🪔",meta:"पूजा सामग्री"},
+{name:"किशमिश",icon:"🍇",meta:"ड्राई फ्रूट्स"},
+{name:"रुई की बत्ती",icon:"🧵",meta:"पूजा सामग्री"},
+{name:"माचिस",icon:"🔥",meta:"घर का सामान"},
+{name:"बादाम",icon:"🌰",meta:"ड्राई फ्रूट्स"},
+{name:"बिस्कुट",icon:"🍪",meta:"स्नैक्स"},
+{name:"आटा",icon:"🌾",meta:"अनाज"},
+{name:"रागी",icon:"🌾",meta:"अनाज"},
+{name:"मेथी",icon:"🌿",meta:"किराना"},
+{name:"चूड़ा",icon:"🍚",meta:"अनाज"},
+{name:"मटर",icon:"🫛",meta:"सब्ज़ी"}
+];
 const key="shopping-checklist-v1";
-let checked;
-try{checked=JSON.parse(localStorage.getItem(key)||"[]")}catch{checked=[]}
-if(!Array.isArray(checked))checked=[];
-function render(){const root=document.getElementById("items");root.replaceChildren();items.forEach((item,i)=>{const label=document.createElement("label"),box=document.createElement("input"),span=document.createElement("span");box.type="checkbox";box.checked=checked.includes(i);span.textContent=item;box.addEventListener("change",()=>{checked=box.checked?[...checked.filter(n=>n!==i),i]:checked.filter(n=>n!==i);save();});label.append(box,span);root.append(label)});document.getElementById("count").textContent=checked.length+" / "+items.length;document.getElementById("fill").style.width=(checked.length/items.length*100)+"%"}
-function save(){try{localStorage.setItem(key,JSON.stringify(checked))}catch{}render()}
-document.getElementById("reset").addEventListener("click",()=>{if(confirm("Reset all checkboxes?")){checked=[];save()}});
-document.getElementById("share").addEventListener("click",async()=>{const text="🛒 सामान की लिस्ट\n\n"+items.map((item,i)=>(checked.includes(i)?"✅ ":"☐ ")+item).join("\n")+"\n\nOpen checklist: "+location.href;if(navigator.share){try{await navigator.share({title:"सामान की लिस्ट",text});return}catch{}}try{await navigator.clipboard.writeText(text);alert("List copied! Paste it into WhatsApp.")}catch{prompt("Copy this shopping list:",text)}});
+let checked=[];
+try{let saved=JSON.parse(localStorage.getItem(key)||"[]");if(Array.isArray(saved)){checked=[...new Set(saved.filter(n=>Number.isInteger(n)&&n>=0&&n<products.length))]}}catch(e){}
+let filter="all",search="",toastTimer;
+const $=id=>document.getElementById(id);
+const date=new Intl.DateTimeFormat("en-IN",{day:"numeric",month:"short",year:"numeric"}).format(new Date());
+$("today").textContent=date;
+function persist(){try{localStorage.setItem(key,JSON.stringify(checked))}catch(e){}render()}
+function notify(message){const el=$("toast");el.textContent=message;el.classList.add("show");clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove("show"),2400)}
+function render(){
+const count=checked.length,total=products.length,left=total-count,pct=Math.round(count/total*100);
+$("heroCount").innerHTML=count+' <span style="display:inline;font-size:20px;color:#91b7a1">/ '+total+"</span>";
+$("heroMessage").textContent=count===total?"All done! Amazing work 🎉":count===0?"Ready when you are ✨":left+" items left — keep going!";
+$("percent").textContent=pct+"%";$("ring").style.setProperty("--pct",pct+"%");
+$("remaining").textContent=left+" बाकी";
+const root=$("items");root.replaceChildren();
+let visible=0;
+products.forEach((p,i)=>{
+const done=checked.includes(i);
+if(filter==="done"&&!done||filter==="pending"&&done||search&&!p.name.toLocaleLowerCase().includes(search)&&!p.meta.toLocaleLowerCase().includes(search))return;
+visible++;
+const btn=document.createElement("button");btn.type="button";btn.className="item"+(done?" done":"");btn.setAttribute("aria-pressed",String(done));btn.setAttribute("aria-label",p.name+(done?" purchased":" not purchased"));
+const tick=document.createElement("span");tick.className="tick";tick.textContent=done?"✓":"";
+const label=document.createElement("span");label.className="itemtext";const name=document.createElement("span");name.className="itemname";name.textContent=p.name;const meta=document.createElement("span");meta.className="itemmeta";meta.textContent=done?"खरीद लिया ✓":p.meta;label.append(name,meta);
+const icon=document.createElement("span");icon.className="itemicon";icon.textContent=p.icon;
+btn.append(tick,label,icon);
+btn.addEventListener("click",()=>{checked=done?checked.filter(n=>n!==i):[...checked,i];persist();if(!done&&checked.length===total)notify("🎉 सारी खरीदारी पूरी हो गई!")});
+root.append(btn);
+});
+if(visible===0){const empty=document.createElement("div");empty.className="empty";const emoji=document.createElement("div");emoji.className="emoji";emoji.textContent=filter==="pending"?"🎉":"🔎";const title=document.createElement("strong");title.textContent=filter==="pending"&&!search?"सब सामान खरीद लिया!":"कोई सामान नहीं मिला";const detail=document.createElement("span");detail.textContent=filter==="pending"&&!search?"शानदार! आपकी लिस्ट पूरी हो गई।":"दूसरा फ़िल्टर या सर्च आज़माएँ।";empty.append(emoji,title,detail);root.append(empty)}
+document.querySelectorAll(".tab").forEach(b=>b.setAttribute("aria-selected",String(b.dataset.filter===filter)));
+}
+document.querySelectorAll(".tab").forEach(b=>b.addEventListener("click",()=>{filter=b.dataset.filter;render()}));
+$("search").addEventListener("input",e=>{search=e.target.value.trim().toLocaleLowerCase();render()});
+$("reset").addEventListener("click",()=>{if(!checked.length){notify("लिस्ट पहले से खाली है");return}if(confirm("सभी टिक हटाएँ और लिस्ट फिर से शुरू करें?")){checked=[];persist();filter="all";search="";$("search").value="";notify("लिस्ट रीसेट हो गई")}});
+$("share").addEventListener("click",async()=>{
+const list="🛒 *सामान की लिस्ट*\n\n"+products.map((p,i)=>(checked.includes(i)?"✅ ":"☐ ")+p.name).join("\n")+"\n\n🔗 Interactive checklist:\n"+location.href;
+if(navigator.share){try{await navigator.share({title:"सामान की लिस्ट",text:list});return}catch(e){if(e.name==="AbortError")return}}
+try{await navigator.clipboard.writeText(list);notify("कॉपी हो गया! WhatsApp में पेस्ट करें।")}catch(e){window.prompt("Copy this list:",list)}
+});
 render();
+})();
 </script></body></html>
